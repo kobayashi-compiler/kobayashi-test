@@ -10,7 +10,7 @@ import requests
 from redis import Redis
 
 BASE = 'https://r.nya.rs:8987'
-COMPILER = '/var/www/duck/thu-cs-compiler/build/main'
+COMPILER = '/var/www/duck/kobayashi-compiler/build/main'
 
 WA = 1919
 CE = 114

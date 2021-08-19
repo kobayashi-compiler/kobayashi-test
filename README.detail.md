@@ -113,7 +113,7 @@ ln -s /var/www/compiler2021/公开../20../h_functional /var/www/testcases/h_func
 
 同样地拉取官方仓库并链接，然后把 `judge.py` 放在 `/var/www/duck/testcases` 下，你需要更改其中的 `BASE` 变量为树莓派的访问地址，以及把 `kslib.h` 放在文件夹中
 
-然后拉取你的编译器到 `/var/www/duck/thu-cs-compiler`，评测脚本会切换到指定 commit 并以如下方式编译测评，编译器位置为 `build/main`
+然后拉取你的编译器到 `/var/www/duck/kobayashi-compiler`，评测脚本会切换到指定 commit 并以如下方式编译测评，编译器位置为 `build/main`
 
 ```bash
 cd build
